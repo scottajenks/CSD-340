@@ -1,0 +1,75 @@
+/*Scott Jenks
+1/10/2023
+Module 4.3 - Build a Webpage Exercise, Part 3
+*/
+
+#container {
+    width: 100%;
+}
+
+#left,
+#right {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    font-family: 'Oswald', Verdana, 'Arial', sans-serif;
+    margin-left: 2.5%;
+}
+
+#left {
+    border: 1px solid red;
+    border-radius: 15px;
+}
+
+#right {
+    border: 1px dashed red;
+    border-radius: 15px;
+}
+
+#bottom {
+    margin-top: 60%;
+    width: 100%;
+    float: right;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Oswald', Verdana, 'Arial', sans-serif;
+}
+
+h3 {
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+ol,
+ul {
+    font-weight: 300;
+}
+
+ol {
+    padding: 10px;
+    list-style-position: inside;
+    margin-left: 15px;
+}
+
+ul {
+    padding: 10px;
+    list-style-position: inside;
+    list-style: upper-roman;
+    margin-left: 35px;
+}
+
+a {
+    font-family: 'Oswald', Verdana, 'Arial', sans-serif;
+    text-decoration: none;
+}
+
+a.right {
+    float: right;
+}
+
+a:hover {
+    text-decoration: underline;
+}
