@@ -1,0 +1,52 @@
+/*Scott Jenks
+1/23/2023
+Module 5.2 - Build a Webpage Exercise, Part 4
+*/
+
+body {
+    background-color: rgba(247, 112, 24, 0.2);
+}
+
+#image-gallery {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 10%;
+}
+
+.book-cover-info {
+    border: solid;
+    border-radius: 15px;
+    border-color: rgba(185, 63, 8, 1);
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Oswald', Verdana, 'Arial', sans-serif;
+    font-weight: 400;
+    color: rgba(185, 63, 8, 1);
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Oswald', Verdana, 'Arial', sans-serif;
+    font-weight: 400;
+    color: rgba(185, 63, 8, 1);
+}
+
+img {
+    width: 400px;
+    height: 350px;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-family: 'Oswald', Verdana, 'Arial', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: .75em;
+    color: rgba(185, 63, 8, 1);
+}
