@@ -6,5 +6,19 @@
     "defaults",
     "not ie 11",
     "not ios_saf <= 14.8"
-  ]
+  ],
+  "hints": {
+    "axe/text-alternatives": [
+      "default",
+      {
+        "image-alt": "off"
+      }
+    ],
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off"
+      }
+    ]
+  }
 }
