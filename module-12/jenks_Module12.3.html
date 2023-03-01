@@ -1,5 +1,5 @@
 <!--Scott Jenks
-2/21/23
+2/26/23
 Module 12.3 - Final: HTML5 Landing Page-->
 
 <!DOCTYPE html>
@@ -22,62 +22,132 @@ Module 12.3 - Final: HTML5 Landing Page-->
     </header>
 
     <div id="navbar">
-        <a href="#hobbiesContainer">Hobbies</a>
-        <a href="#experienceContainer">Experience</a>
         <a href="#contactContainer">Contact</a>
+        <a href="#experienceContainer">Experience</a>
+        <a href="#hobbiesContainer">Hobbies</a>
     </div>
 
     <div id="container">
+        <div id="heroContainer">
+            <h2>Scott Jenks</h2>
+            <img src="module12 img/Scott.jpg" alt="" class="heroimg">
+        </div>
+
         <div id="hobbiesContainer">
-            <div class="card">
-                <div class="card-title">Hobby 1</div>
-                <div class="card-img"></div>
-                <div class="card-content"></div>
+            <div class="hobbycard">
+                <div class="card-title">Traveling</div>
+                <div class="card-img">
+                    <img src="module12 img/Air Plane.jpg" alt="">
+                </div>
+                <div class="card-content">
+                    <p>Travel is a love of Scott's which started at a young age. His dream was to travel the world and
+                        explore different cultures. Some of his favorite places he's visited internationaly are the
+                        United Kingdom, France, Greese, Italy, Brazil and the United Arab Emirates. Locally he loves to
+                        travel to New York City, Las Vegas and Los Angeles.</p>
+                </div>
             </div>
-            <div class="card">
-                <div class="card-title">Hobby 2</div>
-                <div class="card-img"></div>
-                <div class="card-content"></div>
+            <div class="hobbycard">
+                <div class="card-title">Coding</div>
+                <div class="card-img">
+                    <img src="module12 img/Coding.jpg" alt="">
+                </div>
+                <div class="card-content">
+                    <p>Coding is a recent additition to Scott's hobbies as it started during the pandemic. Sitting at
+                        home Scott discovered coding videos on YouTube that he could click away from. Once he started to
+                        play around on his own computer he new that this was more then a hobby and he wanted to persue
+                        it more. Using the educational benefits from his employer Scott hopes to graduate with a
+                        Software Development degree in fall 2023 and make this hobby a career.</p>
+                </div>
             </div>
-            <div class="card">
-                <div class="card-title">Hobby 3</div>
-                <div class="card-img"></div>
-                <div class="card-content"></div>
+            <div class="hobbycard">
+                <div class="card-title">Theater</div>
+                <div class="card-img">
+                    <img src="module12 img/Theater Masks.jpg" alt="">
+                </div>
+                <div class="card-content">
+                    <p>Scott's love for the performing arts is his first true passion. He has a bachelor’s degree in
+                        Theater Stage Management and loves to be the patron of the theater. Scott mixes his two hobbies
+                        of travel and theater by visting NYC and going to see a Broadway show or two (okay, more like
+                        5-7) at least once a year.</p>
+                </div>
             </div>
         </div>
 
         <div id="experienceContainer">
-            <div class="card">
-                <div class="card-title">Experience 1</div>
-                <div class="card-img"></div>
-                <div class="card-content"></div>
+            <div class="excard">
+                <div class="card-title">Wedding</div>
+                <div class="card-img">
+                    <img src="module12 img/Wedding.JPG" alt="">
+                </div>
+                <div class="card-content">
+                    <p>The best day of Scott's life was getting to marry his best friend, Luiz Soares, on January 11,
+                        2017 in Las Vegas, NV.</p>
+                </div>
             </div>
-            <div class="card">
-                <div class="card-title">Experience 2</div>
-                <div class="card-img"></div>
-                <div class="card-content"></div>
+            <div class="excard">
+                <div class="card-title">Graduation</div>
+                <div class="card-img">
+                    <img src="module12 img/Graduation.JPG" alt="">
+                </div>
+                <div class="card-content">Scott has two degrees: an associates degree in Accounting and a bachelor’s
+                    degree in Theater Stage Management.</div>
             </div>
-            <div class="card">
-                <div class="card-title">Experience 3</div>
-                <div class="card-img"></div>
-                <div class="card-content"></div>
+            <div class="excard">
+                <div class="card-title">Off Pitch</div>
+                <div class="card-img">
+                    <img src="module12 img/Off Pitch.jpg" alt="">
+                </div>
+                <div class="card-content">
+                    <p>Scott got the opportunity to be apart of the reality TV show "Off Pitch" with the all adult show
+                        group The Grand River Singers which aired on VH1 in the Spring of 2013.</p>
+                </div>
             </div>
         </div>
 
         <div id="contactContainer">
             <form>
-                <label for="fname">First Name:</label>
-                <input type="text" name="fname" id="fname" placeholder="Scott">
-                <label for="lname">Last Name:</label>
-                <input type="text" name="lname" id="lname" placeholder="Jenks">
-                <label for="email">Email:</label>
-                <input type="email" name="email" id="email" placeholder="emailaddress@google.com">
-                <input type="submit" value="Submit">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fname">First Name:</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" name="firstname" id="fname" placeholder="Your name...">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">Last Name:</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" name="lastname" id="lname" placeholder="Your last name...">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="email">Email:</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="email" name="email" id="email" placeholder="emailaddress@google.com">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="message">Leave Message:</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea id="message" name="message" placeholder="Write your message here..."
+                            style="height: 200px"></textarea>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <input type="submit" value="Send Message">
+                </div>
             </form>
         </div>
-
-
-
     </div>
 
     <footer>
